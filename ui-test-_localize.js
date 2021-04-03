@@ -15,7 +15,7 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 		});
 
 		it('localizes SWARLink', function () {
-			browser.assert.attribute(SWARLink, 'title', uLocalized('OLSKWordingAppring'));
+			browser.assert.attribute(SWARLink, 'title', uLocalized('SWARLinkText'));
 		});
 
 	});
