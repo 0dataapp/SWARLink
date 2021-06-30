@@ -8,8 +8,8 @@ describe('SWARLink_Misc', function () {
 
 	describe('SWARLink', function test_SWARLink () {
 
-		it('classes OLSKCommonAppring', function () {
-			browser.assert.hasClass(SWARLink, 'OLSKCommonAppring');
+		it('classes OLSKCommonTie', function () {
+			browser.assert.hasClass(SWARLink, 'OLSKCommonTie');
 		});
 
 		it('sets href', function () {
