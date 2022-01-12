@@ -18,12 +18,4 @@ describe('SWARLink_Misc', function () {
 
 	});
 
-	describe('SWARLinkImage', function test_SWARLinkImage () {
-
-		it('sets src', function () {
-			browser.assert.attribute(SWARLinkImage, 'src', process.env.SWAR_LINK_ICON_URL);
-		});
-
-	});
-
 });
