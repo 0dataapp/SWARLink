@@ -13,7 +13,7 @@ describe('SWARLink_Access', function () {
 	});
 
 	it('shows SWARLink', function () {
-		browser.assert.elements(SWARLink, 1);
+		return browser.assert.elements(SWARLink, 1);
 	});
 
 });
